@@ -39,7 +39,7 @@ if opt.train:
 
 elif opt.predict:
 	for i in range(1):
-	        os.system("python predict.py \
+	        os.system("python /content/EnlightenGAN/predict.py \
 	        	--dataroot /content/data/eval15/low \
 	        	--name enlightening \
 	        	--model single \
