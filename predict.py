@@ -18,7 +18,7 @@ dataset = data_loader.load_data()
 model = create_model(opt)
 visualizer = Visualizer(opt)
 # create website
-web_dir = os.path.join("./ablation/", opt.name, '%s_%s' % (opt.phase, opt.which_epoch))
+web_dir = os.path.join("/content/test_results_enlightengan/", opt.name, '%s_%s' % (opt.phase, opt.which_epoch))
 webpage = html.HTML(web_dir, 'Experiment = %s, Phase = %s, Epoch = %s' % (opt.name, opt.phase, opt.which_epoch))
 # test
 print(len(dataset))
