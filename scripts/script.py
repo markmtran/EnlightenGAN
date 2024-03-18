@@ -40,7 +40,7 @@ if opt.train:
 elif opt.predict:
 	for i in range(1):
 	        os.system("python /content/EnlightenGAN/predict.py \
-	        	--dataroot /content/data/eval15/low \
+	        	--dataroot /content/test_results_enlightengan \
 	        	--name enlightening \
 	        	--model single \
 	        	--which_direction AtoB \
